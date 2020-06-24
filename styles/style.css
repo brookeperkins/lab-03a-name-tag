@@ -1,0 +1,58 @@
+#container {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    width: 800px;
+    background-color: grey;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#nametag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 270;
+    background-color: red;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#hello {
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#input {
+    height: 150px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    border-radius: 0 px 0px 15px 15px;
+}

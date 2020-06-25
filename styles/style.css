@@ -1,14 +1,18 @@
 #container {
+    max-width: 900px;
+    max-height: 600px;
     border: solid black 1px;
+    margin: 12px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 900px;
-    width: 900px;
-    background-color: grey;
+    background-color: rgb(209, 209, 209);
 }
 
 #nametag {
+    max-width: 900px;
+    max-height: 600px;
     border: solid black 3px;
     display: flex;
     flex-direction: column;
@@ -16,7 +20,7 @@
     align-items: center;
     height: 600px;
     width: 270;
-    background-color: red;
+    background-color: rgb(201, 64, 64);
     color: white;
     border-radius: 15px 15px 15px 15px;
 }
@@ -27,7 +31,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 #input {
@@ -42,4 +46,72 @@ h2 {
     color: black;
     font-size: 4rem;
     font-family: cursive;
+    border-radius: 15px;
+}
+
+#decisions {
+    max-width: 900px;
+    max-height: 600px;
+    margin: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    /* display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+    grid-area: 
+    ". pink-button blue-button green-button"
+    ". . name"; */
+    align-items: center;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+#pink-button {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    border: solid black 1px;
+    border-radius: 3px;
+    box-shadow: 1px 2px grey; 
+    background-color:rgb(245,192,208)
+}
+
+#blue-button {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    border: solid black 1px;
+    border-radius: 3px;
+    box-shadow: 1px 2px grey; 
+    background-color: rgb(79,148,199)
+}
+
+#green-button {
+    display: grid;
+    justify-self: stretch;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    border: solid black 1px;
+    border-radius: 3px;
+    box-shadow: 1px 2px grey; 
+    background-color: rgb(55,190,138);
+}
+
+#name {
+    display: grid;
+    justify-self: stretch;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border: solid black 1px;
+    border-radius: 3px;
+    background-color: white
 }

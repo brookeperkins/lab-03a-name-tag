@@ -1,1 +1,1 @@
-# lab-03a-name-tag
+# A fun little nametag made in VanillaJS

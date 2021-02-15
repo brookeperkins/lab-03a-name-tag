@@ -7,20 +7,20 @@ const nameTag = document.getElementById('name-here');
 
 pinkButton.addEventListener('click', () => {
     const nametag = document.getElementById('nametag');
-    nametag.style.background= 'pink';
+    nametag.style.background = 'pink';
 });
 
 blueButton.addEventListener('click', () => {
     const nametag = document.getElementById('nametag');
-    nametag.style.background= 'steelblue';
-})
+    nametag.style.background = 'steelblue';
+});
 
 greenButton.addEventListener('click', () => {
     const nametag = document.getElementById('nametag');
     nametag.style.background = 'green';
-})
+});
 
 userButton.addEventListener('click', () => {
     const newInput = userInput.value;
     nameTag.textContent = newInput;
-})
+});
